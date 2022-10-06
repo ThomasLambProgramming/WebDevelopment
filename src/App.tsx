@@ -16,7 +16,7 @@ export default function App() {
         Using <Link href="https://vitejs.dev/">Vite</Link>,{' '}
         <Link href="https://reactjs.org/">React</Link>,{' '}
         <Link href="https://www.typescriptlang.org/">TypeScript</Link> and{' '}
-        <Link href="https://tailwindcss.com/">Tailwind</Link>.
+        <Link href="https://tailwindcss.com/">wind</Link>.
       </p>
       <p className="my-4">
         Change{' '}
