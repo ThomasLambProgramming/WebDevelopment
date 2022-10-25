@@ -1,0 +1,43 @@
+
+    This is a good meme i have forgotten most of it already.
+
+ {/* <p>
+        Let, const, () => {} functions
+        Exports imports
+        ...Spread when ...array
+        and (...args) will merge many args into an array
+        [var1, var2] = array
+        {name} = {name: "tim", age:28} will grab name
+        array.map((element) => {value of some kind})
+        {} is for a javascript expression that returns a value.
+
+        <Component name="50" Name={value} ></Component>
+        in the component give it the props argument then use props.whatever the input was (i think for typescript this changes but still)
+
+        The component drilling and shit is straightforward and lets be honest dont overthink it, it doesnt matter if how we do it is wrong.
+
+
+        Wrapper components
+        function Card(props)
+        {
+          const classes = 'default ' + props.className;
+          return <div className={classes}>{props.children}</div>;
+        }
+        this is for removing repeated classname stuff (possibly javascript but im not too sure.)
+        everything gets children in props as a default (unless its a "pure functional with no children argument")
+
+        ..\ is for back
+        .\ is for same folder
+
+        Proper component function declaration (pretty sure its better for the this stuff since its self contained or whatever the fuck)
+        const var = () => {
+        }
+
+        javascript events have all different shit to apply conditional stuff to https://www.w3schools.com/js/js_events.asp
+        <button onClick={} onDragEnter={}></button>
+        which we can then put handlers on and etc.
+        a handler can just be a () => {} or it can just be a function reference {functionName} dont put () at the end of the function or it will just call itself
+
+
+        //const [newvalue, SetNewValue] = useState('Hello there');
+      </p> */}
