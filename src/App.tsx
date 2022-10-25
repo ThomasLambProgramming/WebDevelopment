@@ -1,18 +1,11 @@
 import React from 'react';
 
-const Link = (props: JSX.IntrinsicElements['a']) => (
-  <a
-    className="text-pink-500 underline hover:no-underline dark:text-pink-400"
-    {...props}
-  />
-);
-
 export default function App() {
   //Put react fragment in so that there isnt an extra div for no reason when i added a second one.
 
   return (
     <React.Fragment>
-      <div className="mx-auto my-8 mt-10 w-5/6 rounded border border-red-200 p-4 shadow-inner dark:border-neutral-600 dark:bg-neutral-800 dark:shadow-none">
+      <div className="mx-auto my-12 mt-10 w-5/6 rounded border border-red-200 p-4 text-center shadow-inner dark:border-neutral-600 dark:bg-neutral-800 dark:shadow-none">
         <h1 className="mb-4 text-center text-4xl">
           Welcome To what will be a mistake in learning probably lmao
         </h1>
@@ -21,13 +14,6 @@ export default function App() {
             This is the first of what i will make with css, vim, tailwind, react
             and vite. Your whalecum
           </em>
-        </p>
-        <p className="my-4 ml-20 text-left text-center">
-          Using <Link href="https://vitejs.dev/">Vite</Link>,{' '}
-          <Link href="https://reactjs.org/">React</Link>,{' '}
-          <Link href="https://www.typescriptlang.org/">TypeScript</Link> and{' '}
-          <link></link>
-          <Link href="https://tailwindcss.com/">wind</Link>.
         </p>
       </div>
 
@@ -57,7 +43,7 @@ export default function App() {
         the class variables with buttons on top. such as a grid of buttons that
         then change all buttons to be flat, rounded etc.
       </p>
-      <p className="mx-10 mt-10 text-center">
+      <p className="mx-52 mt-10 text-center">
         vim is also being alot of fun! Other stuff that might be helpful is
         making a small blog and getting that data from a github repo or
         something similar with markdown. Gray matter is the npm package that
@@ -101,7 +87,8 @@ export default function App() {
         which we can then put handlers on and etc.
         a handler can just be a () => {} or it can just be a function reference {functionName} dont put () at the end of the function or it will just call itself
 
-
+        Class is reserved in javascript so thats why jsx does className not class like html 
+        
         //const [newvalue, SetNewValue] = useState('Hello there');
       </p> */}
     </React.Fragment>
