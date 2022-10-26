@@ -1,16 +1,23 @@
 import React from 'react';
 import Middle from './Middle';
 import Title from './Title';
+import Title2 from './Testing';
 import UserInput from './UserInput';
 
 export default function App() {
-  //Put react fragment in so that there isnt an extra div for no reason when i added a second one.
   return (
-    //This has all been separated to practice making components and calling them.
     <React.Fragment>
-      <Title />
+      <Title var1="adw" var2="dawd" />
+      <Title2 var1="adw" var2="dawd" />
       <Middle />
       <UserInput />
     </React.Fragment>
   );
 }
+
+// You can do bool conditional && result jsx or whatever to run
+// that is a normal javascript thing its a bit stupid but somewhat interesting
+// Set state does the
+
+// const [variable, setVariable] = SetState(initialValue);
+//

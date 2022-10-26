@@ -8,9 +8,11 @@ const Link = (props: JSX.IntrinsicElements['a']) => (
 );
 
 const Title = () => {
+  const titleClass =
+    'mx-auto my-8 mt-10 w-5/6 rounded border border-red-200 p-4 shadow-inner dark:border-neutral-600 dark:bg-neutral-800 dark:shadow-none';
   return (
     <React.Fragment>
-      <div className="mx-auto my-8 mt-10 w-5/6 rounded border border-red-200 p-4 shadow-inner dark:border-neutral-600 dark:bg-neutral-800 dark:shadow-none">
+      <div className={titleClass}>
         <h1 className="mb-4 text-center text-4xl">
           Welcome To what will be a mistake in learning probably lmao
         </h1>

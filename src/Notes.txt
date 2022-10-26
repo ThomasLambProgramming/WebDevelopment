@@ -23,6 +23,7 @@
           const classes = 'default ' + props.className;
           return <div className={classes}>{props.children}</div>;
         }
+        
         this is for removing repeated classname stuff (possibly javascript but im not too sure.)
         everything gets children in props as a default (unless its a "pure functional with no children argument")
 
