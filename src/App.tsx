@@ -46,13 +46,12 @@ it is not affected/ could affect react in a way without react wanting to such as
 we use the useEffect hook to manage this stuff so it doesnt cause infinite loops and shit
 useEffect(() => {}, [dependiences]) run function given when dependiences change.
 
+section 10, 12, 14 15, 16, 18-27
 
-
-
-
-
-
-section 10, 12, 14 15, 16, 20-21-22-23-24-27
+27.10 at regular speed
+13.35 at 2x (what im actually doing)
+can probs shave off 30% with skips
+9.30 total.
 
 
 */
